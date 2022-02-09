@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Redressed&display=swap');
+
+
+.wrapper{
+    box-sizing: border-box;
+    min-height: 100%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.header__logo{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;   
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: brown;
+    text-shadow:  3px 3px 3px rgb(241, 99, 125);
+    text-decoration: underline;
+}
+
+.header__nav1{
+    display: inline-block;   
+    padding:  0 60px;   
+}
+
+.header__nav .header__nav1 a{
+    color: darkred;
+    text-decoration: none;
+    border: 3px solid rgb(104, 25, 25);
+    border-radius: 30px;
+    box-shadow: inset 3px 5px 26px 4px chocolate;
+}
+
+
+.main__name{
+    max-width: 700px;
+    margin: 100px auto;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(112, 3, 112);
+    border: 3px solid darkorchid;    
+    box-shadow: 3px 3px 6px 4px rgb(0, 0, 0);   
+
+}
+.main__title{
+    margin: 0 0 20px 200px;       
+    letter-spacing: 4px;
+    text-transform: capitalize;    
+    font-size: 25px;
+    max-width: 500px;
+    text-align: right;
+    border:1px solid rgb(250, 247, 247);
+    box-shadow: 4px 6px 19px 4px rgb(8 8 8);
+    border-radius: 50px;
+}
+.main__image{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+
+
+.main__paragraph{
+    max-width: 1700px; 
+    padding: 0 20px;
+    margin: 0 0 30px 40px;    
+    font-weight: 700;
+    text-align: justify;
+    word-spacing: 4px;  
+      
+}
+.main__paragraph_two{
+    width: 1900px;    
+    padding: 0 20px;
+    max-height: 150px;
+    overflow: auto;
+    margin: 0 0 30px 40px;    
+    font-weight: 800;
+    text-align: right;
+    text-decoration: underline rgb(46, 9, 168) ;
+    border: 4px dashed rgba(70, 2, 90, 0.281);
+    border-top: none;
+}
+
+
+.main__span{
+    display: inline-block;
+    text-indent: 60px;    
+    font-weight: 800;
+    color: rgb(51, 139, 0);
+}
+.main__paragraph_two{
+    max-width: 1700px; 
+    padding: 0 20px;
+    max-height: 150px;
+    overflow: auto;
+    margin: 0 0 30px 40px;    
+    font-weight: 800;
+    text-align: right;
+    text-decoration: underline rgb(46, 9, 168) ;
+    border: 4px dashed rgba(70, 2, 90, 0.281);
+    border-top: none;
+}
+.main__subtitle{
+    max-width: 250px;
+    margin: 0 0 20px auto;
+    text-align: center; 
+    font-size: 25px;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 139, 0.452);
+    border: 8px solid cornflowerblue;
+    border-bottom: 4px dashed cornflowerblue;
+    border-top: none;
+    box-shadow: 0 0 4px 6px rgba(0, 255, 255, 0.445);
+
+}
+.main__subtitle_paragraph{    
+    max-width: 50%;
+    max-height: 400px;
+    text-align: justify;
+    overflow: hidden;
+    margin: 0 0 0 auto;
+    opacity: 0.4;
+    padding: 0 10px;
+    outline: 2px dotted rgba(76, 0, 130, 0.253);
+    word-spacing: 5px;
+
+}
+.main__paragraph_three{
+    max-width: 80%;
+    margin: 0 auto 50px;    
+    text-transform: capitalize;
+    text-align: center;
+    border: 1px solid rgb(121, 105, 100);
+    box-shadow: inset 5px 5px 32px 3px;   
+    
+}
+.main__paragraph_fourth{
+    padding: 10px 20px;
+    opacity: 0;
+}
+.main__paragraph_fourth1{
+    visibility: hidden;
+}
+.main__paragraph_fourth2{
+    margin-bottom: 100px;
+    padding: 0 30px 0 50px;
+    letter-spacing: -2px;
+    outline: 2px dashed rgba(77, 5, 17, 0.548);
+    box-shadow: 6px 5px 24px 5px ; 
+    border-radius: 28px 30px 20px 90px;
+    
+}
+a{
+    text-decoration: line-through;
+    
+}
+
+.main__image_fourth{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.footer__link{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    outline: 30px solid rgba(76, 0, 130, 0.13);
+}
